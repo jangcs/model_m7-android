@@ -1,0 +1,12 @@
+git:
+  remote: git@github.com:jangcs/model_m7-android.git
+dvc:
+  remote: gs://cr-model-test/model_m7-android
+platform:
+  architecture: arm
+  os: android
+  version: 5.6
+  device: cpu
+model:
+  name: model_m7
+  tag: android
